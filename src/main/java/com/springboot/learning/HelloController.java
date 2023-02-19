@@ -20,23 +20,17 @@ import java.util.Objects;
 @Controller
 public class HelloController {
 
-    private final ApplicationContext context;
     private final HelloService helloService;
 
-    public HelloController(HelloService helloService,ApplicationContext context) {
+    public HelloController(HelloService helloService) {
         this.helloService = helloService;
-        this.context=context;
 
     }
     @GetMapping("/hello")
     @ResponseBody
     public String hello(String name){
-        String[] beanDefinitionNames = context.getBeanDefinitionNames();
-          for (String beanDefinition : beanDefinitionNames) {
-              // 빈 이름으로 빈 객체(인스턴스)를 조회한다.
-              Object bean = context.getBean(beanDefinition);
-              System.out.println("beanDefinition = " + beanDefinition + ", object = " + bean);
-          }
-        return helloService.hello(Objects.requireNonNull(name));
+        if(name==null || name.trim().length()==0) throw  new IllegalArgumentException();
+
+        return helloService.hello(name);
     }
 }
