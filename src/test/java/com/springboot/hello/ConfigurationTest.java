@@ -41,9 +41,10 @@ public class ConfigurationTest {
         @Override
         Common common() {
 
-            if(this.common==null)
+            if(this.common==null){
                 System.out.println("null");
                 this.common=super.common();
+            }
             return this.common;
         }
     }
@@ -66,7 +67,6 @@ public class ConfigurationTest {
 
         @Bean
          Common common(){
-
             return new Common();
         }
 
@@ -101,7 +101,6 @@ public class ConfigurationTest {
     }
 
     static class Common{
-
 
     }
 }

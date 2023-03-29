@@ -1,79 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.springboot.hello.ConditionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-03T00:49:33" hostname="DESKTOP-92IMVU3" time="0.071">
+<testsuite name="com.springboot.hello.ConditionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-28T02:02:31" hostname="DESKTOP-92IMVU3" time="1.655">
   <properties/>
-  <testcase name="conditionTest()" classname="com.springboot.hello.ConditionTest" time="0.071"/>
-  <system-out><![CDATA[1
-*1*
-1
-2
-2
-*2*
-3
-3
-3
-4
-4
-4
-5
-5
-5
-6
-6
-6
-7
-7
-7
-8
-8
-8
-9
-9
-9
-10
-10
-10
-11
-11
-11
-12
-12
-12
-13
-13
-13
-14
-14
-14
-15
-15
-15
-16
-16
-16
-17
-17
-17
-18
-18
-18
-19
-19
-19
-20
-20
-20
-21
-21
-21
-22
-22
-22
-23
-23
-23
-24
-24
-24
+  <testcase name="conditionTest()" classname="com.springboot.hello.ConditionTest" time="1.655"/>
+  <system-out><![CDATA[11:02:31.798 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3
+11:02:31.860 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+11:02:32.245 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+11:02:32.265 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+11:02:32.270 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+11:02:32.277 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+11:02:32.308 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'conditionTest.Config1'
+11:02:32.321 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myBean'
+11:02:32.696 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3, started on Tue Mar 28 11:02:31 KST 2023
+11:02:32.707 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3af37506
+11:02:32.708 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+11:02:32.710 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+11:02:32.710 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+11:02:32.711 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+11:02:32.715 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+11:02:32.717 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3af37506, started on Tue Mar 28 11:02:32 KST 2023
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
