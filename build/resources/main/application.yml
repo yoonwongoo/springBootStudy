@@ -1,1 +1,6 @@
+my:
+  name: "yoon"
 
+server:
+  port: "9002"
+  contextPath: "/app"

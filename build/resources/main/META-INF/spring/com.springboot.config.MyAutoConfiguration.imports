@@ -1,3 +1,5 @@
-com.springboot.config.DisPatcherConfig
-com.springboot.config.TomcatConfig
-com.springboot.config.JettyConfig
+com.springboot.config.autoconfig.DisPatcherConfig
+com.springboot.config.autoconfig.TomcatConfig
+com.springboot.config.autoconfig.JettyConfig
+com.springboot.config.autoconfig.PropertyPlaceholderConfig
+com.springboot.config.postprocessorconfig.PropertyPostProcessorConfig
