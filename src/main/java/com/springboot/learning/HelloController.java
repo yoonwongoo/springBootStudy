@@ -33,4 +33,12 @@ public class HelloController {
 
         return helloService.hello(name);
     }
+
+
+    @GetMapping("/count")
+    @ResponseBody
+    public String helloCount(String name){
+
+    return "name:"+name+" count:"+helloService.helloCount(name);
+    }
 }

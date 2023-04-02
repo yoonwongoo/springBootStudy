@@ -3,3 +3,4 @@ com.springboot.config.autoconfig.TomcatConfig
 com.springboot.config.autoconfig.JettyConfig
 com.springboot.config.autoconfig.PropertyPlaceholderConfig
 com.springboot.config.postprocessorconfig.PropertyPostProcessorConfig
+com.springboot.config.autoconfig.DataSourceConfig

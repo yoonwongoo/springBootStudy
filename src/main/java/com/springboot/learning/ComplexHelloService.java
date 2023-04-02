@@ -5,4 +5,9 @@ public class ComplexHelloService implements HelloService{
     public String hello(String name) {
         return "Complex Hello Service"+name;
     }
+
+    @Override
+    public int helloCount(String name) {
+        return 0;
+    }
 }

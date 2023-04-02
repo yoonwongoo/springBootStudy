@@ -10,13 +10,26 @@ public class HelloServiceTest {
     /*return prefix: Simple Hello Service*/
     @Test
     public void serviceTest(){
-    HelloService helloService = new SimpleHelloService();
+    HelloService helloService = new SimpleHelloService(learningRepositoryStub());
     String serviceResult =helloService.hello("1234");
 
-        assertThat(serviceResult).isEqualTo("Simple Hello Service1234");
+    assertThat(serviceResult).isEqualTo("Simple Hello Service1234");
 
     }
 
+    private static LearningRepository learningRepositoryStub() {
+        return new LearningRepository() {
+            @Override
+            public Learning findLearning(String name) {
+                return null;
+            }
+
+            @Override
+            public void increaseAttendanceCount(String name) {
+
+            }
+        };
+    }
 
 
     @Test

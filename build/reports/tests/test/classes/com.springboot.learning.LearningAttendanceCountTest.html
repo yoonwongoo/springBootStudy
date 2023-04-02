@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - LearningAttendanceCountTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>LearningAttendanceCountTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.springboot.learning.html">com.springboot.learning</a> &gt; LearningAttendanceCountTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.051s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">출석카운트체크()</td>
+<td class="success">2.051s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>20:29:51.144 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:29:51.192 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:29:51.299 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.springboot.learning.LearningAttendanceCountTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+20:29:51.380 [Test worker] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigContextLoader to process context configuration [ContextConfigurationAttributes@765f05af declaringClass = 'com.springboot.learning.LearningAttendanceCountTest', classes = '{class com.springboot.learning.LearningApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+20:29:51.573 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.springboot.learning.LearningAttendanceCountTest]
+20:29:51.577 [Test worker] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.springboot.learning.LearningAttendanceCountTest]: using defaults.
+20:29:51.579 [Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+20:29:51.664 [Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4f2613d1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d24ffa1, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@65a4798f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@773f7880, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@878452d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@426b6a74, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4c51bb7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@83298d7, org.springframework.test.context.event.EventPublishingTestExecutionListener@42a9e5d1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5b080f3a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@773cbf4f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6b54655f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@665e9289, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7d3430a7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6f603e89]
+20:29:51.671 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6c8bca63 testClass = LearningAttendanceCountTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+20:29:51.720 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@6c8bca63 testClass = LearningAttendanceCountTest, testInstance = com.springboot.learning.LearningAttendanceCountTest@1991f767, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]].
+20:29:51.722 [Test worker] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigContextLoader to load context from [MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+20:29:51.723 [Test worker] DEBUG org.springframework.test.context.support.AbstractGenericContextLoader - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+20:29:51.882 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Activating profiles []
+20:29:51.896 [Test worker] DEBUG org.springframework.test.context.support.AnnotationConfigContextLoader - Registering component classes: {class com.springboot.learning.LearningApplication}
+20:29:52.073 [Test worker] DEBUG org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@569bf9eb
+20:29:52.131 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:29:52.404 [Test worker] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\yunyu\Documents\workspace-spring-intelliJ\learning\build\classes\java\main\com\springboot\learning\HelloController.class]
+20:29:52.406 [Test worker] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\yunyu\Documents\workspace-spring-intelliJ\learning\build\classes\java\main\com\springboot\learning\HelloDecorator.class]
+20:29:52.420 [Test worker] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\yunyu\Documents\workspace-spring-intelliJ\learning\build\classes\java\main\com\springboot\learning\LearningRepositoryJdbcTemplate.class]
+20:29:52.427 [Test worker] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\yunyu\Documents\workspace-spring-intelliJ\learning\build\classes\java\main\com\springboot\learning\SimpleHelloService.class]
+20:29:53.092 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+20:29:53.097 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'com.springboot.config.autoconfig.PropertyPlaceholderConfig'
+20:29:53.112 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor'
+20:29:53.186 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+20:29:53.192 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+20:29:53.193 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+20:29:53.199 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+20:29:53.208 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+20:29:53.229 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor'
+20:29:53.232 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:29:53.424 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'propertyPostProcessor'
+20:29:53.426 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'com.springboot.config.postprocessorconfig.PropertyPostProcessorConfig'
+20:29:53.434 [Test worker] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.springboot.config.postprocessorconfig.PropertyPostProcessorConfig' of type [com.springboot.config.postprocessorconfig.PropertyPostProcessorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:29:53.435 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+20:29:53.436 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+20:29:53.476 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+20:29:53.496 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+20:29:53.497 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+20:29:53.555 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+20:29:53.555 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+20:29:53.599 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'propertyPostProcessor' via factory method to bean named 'environment'
+20:29:53.623 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'learningApplication'
+20:29:53.626 [Test worker] DEBUG org.springframework.core.LocalVariableTableParameterNameDiscoverer - Cannot find '.class' file for class [class com.springboot.learning.LearningApplication$$EnhancerBySpringCGLIB$$400e01cf] - unable to determine constructor/method parameter names
+20:29:53.627 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcTemplate'
+20:29:53.627 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'com.springboot.config.autoconfig.DataSourceConfig'
+20:29:53.638 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariDataSource'
+20:29:53.639 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'com.springboot.config.autoconfig.MyDataSourceProperties'
+20:29:54.011 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'hikariDataSource' via factory method to bean named 'com.springboot.config.autoconfig.MyDataSourceProperties'
+20:29:54.021 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@69663380
+20:29:54.085 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcTemplate' via factory method to bean named 'hikariDataSource'
+20:29:54.181 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'learningApplication' via constructor to bean named 'jdbcTemplate'
+20:29:54.207 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [create table if not exists learning(studentName varchar(100) primary key,attendanceCount int)]
+20:29:54.228 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:54.231 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+20:29:54.239 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension................................false
+20:29:54.240 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit................................true
+20:29:54.240 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - catalog................................none
+20:29:54.241 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql................................none
+20:29:54.241 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery................................none
+20:29:54.241 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout................................30000
+20:29:54.242 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSource................................none
+20:29:54.242 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName................................none
+20:29:54.242 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI................................none
+20:29:54.244 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties................................{password=&lt;masked&gt;}
+20:29:54.245 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................................&quot;org.h2.Driver&quot;
+20:29:54.247 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName................................none
+20:29:54.248 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties................................{}
+20:29:54.248 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry................................none
+20:29:54.249 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout................................600000
+20:29:54.249 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout................................1
+20:29:54.250 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries................................false
+20:29:54.251 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl................................jdbc:h2:mem:
+20:29:54.251 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime................................0
+20:29:54.252 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold................................0
+20:29:54.252 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime................................1800000
+20:29:54.252 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize................................10
+20:29:54.253 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry................................none
+20:29:54.253 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory................................none
+20:29:54.256 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle................................10
+20:29:54.256 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - password................................&lt;masked&gt;
+20:29:54.256 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - poolName................................&quot;HikariPool-1&quot;
+20:29:54.258 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - readOnly................................false
+20:29:54.261 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans................................false
+20:29:54.261 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor................................none
+20:29:54.261 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - schema................................none
+20:29:54.262 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory................................internal
+20:29:54.262 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation................................default
+20:29:54.262 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - username................................&quot;sa&quot;
+20:29:54.263 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout................................5000
+20:29:54.263 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:29:55.320 [Test worker] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem: user=SA
+20:29:55.328 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:29:55.391 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'helloController'
+20:29:55.404 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'helloDecorator'
+20:29:55.405 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'simpleHelloService'
+20:29:55.406 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'learningRepositoryJdbcTemplate'
+20:29:55.410 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'learningRepositoryJdbcTemplate' via constructor to bean named 'jdbcTemplate'
+20:29:55.425 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'simpleHelloService' via constructor to bean named 'learningRepositoryJdbcTemplate'
+20:29:55.434 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'helloDecorator' via constructor to bean named 'simpleHelloService'
+20:29:55.434 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+20:29:55.443 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem: user=SA
+20:29:55.445 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'helloController' via constructor to bean named 'helloDecorator'
+20:29:55.455 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'com.springboot.config.autoconfig.DisPatcherConfig'
+20:29:55.456 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem: user=SA
+20:29:55.460 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem: user=SA
+20:29:55.463 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dispatcherServlet'
+20:29:55.464 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem: user=SA
+20:29:55.469 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem: user=SA
+20:29:55.475 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem: user=SA
+20:29:55.480 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem: user=SA
+20:29:55.485 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem: user=SA
+20:29:55.491 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem: user=SA
+20:29:55.491 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+20:29:55.665 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'com.springboot.config.ServerProperties'
+20:29:55.678 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'com.springboot.config.autoconfig.JettyConfig'
+20:29:55.686 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jettyServletWebServerFactory'
+20:29:55.687 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'jettyServletWebServerFactory' via factory method to bean named 'com.springboot.config.ServerProperties'
+20:29:55.851 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcTransactionManager'
+20:29:55.852 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcTransactionManager' via factory method to bean named 'hikariDataSource'
+20:29:55.930 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Storing ApplicationContext [1453062635] in cache under key [[MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+20:29:55.931 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@30ca0779 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+20:29:55.948 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1453062635] from cache with key [[MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+20:29:55.948 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@30ca0779 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
+20:29:55.968 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test method: context [DefaultTestContext@6c8bca63 testClass = LearningAttendanceCountTest, testInstance = com.springboot.learning.LearningAttendanceCountTest@1991f767, testMethod = 출석카운트체크@LearningAttendanceCountTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+20:29:55.985 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1453062635] from cache with key [[MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+20:29:55.985 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@30ca0779 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1]
+20:29:55.988 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1453062635] from cache with key [[MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+20:29:55.989 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@30ca0779 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1]
+20:29:57.524 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1453062635] from cache with key [[MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+20:29:57.525 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@30ca0779 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+20:29:57.554 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.556 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.616 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+20:29:57.617 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [insert into learning(studentName,attendanceCount) values(?,?)]
+20:29:57.618 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.667 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.667 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.898 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.899 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.900 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+20:29:57.901 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [update learning set attendanceCount =? where studentName=?]
+20:29:57.901 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.908 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.909 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.910 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.910 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.910 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+20:29:57.911 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [update learning set attendanceCount =? where studentName=?]
+20:29:57.911 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.912 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.912 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.914 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.914 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.917 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+20:29:57.917 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [update learning set attendanceCount =? where studentName=?]
+20:29:57.918 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.926 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.927 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.928 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.929 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.930 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+20:29:57.930 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [update learning set attendanceCount =? where studentName=?]
+20:29:57.930 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.932 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.932 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.933 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.934 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.935 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+20:29:57.935 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [update learning set attendanceCount =? where studentName=?]
+20:29:57.935 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.936 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.937 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.941 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.941 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.942 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+20:29:57.942 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [update learning set attendanceCount =? where studentName=?]
+20:29:57.942 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.944 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.944 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.945 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.945 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.946 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+20:29:57.946 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [update learning set attendanceCount =? where studentName=?]
+20:29:57.946 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.948 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.948 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.950 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.951 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.951 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+20:29:57.952 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [update learning set attendanceCount =? where studentName=?]
+20:29:57.952 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.953 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.954 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.954 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.955 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.955 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+20:29:57.956 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [update learning set attendanceCount =? where studentName=?]
+20:29:57.956 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.957 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [select * from learning where studentName ='윤맹키']
+20:29:57.957 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:29:57.964 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1453062635] from cache with key [[MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+20:29:57.965 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@30ca0779 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+20:29:57.967 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1453062635] from cache with key [[MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+20:29:57.968 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@30ca0779 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+20:29:57.971 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1453062635] from cache with key [[MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+20:29:57.972 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@30ca0779 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 7, missCount = 1]
+20:29:57.973 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1453062635] from cache with key [[MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+20:29:57.973 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@30ca0779 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 8, missCount = 1]
+20:29:57.978 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1453062635] from cache with key [[MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+20:29:57.979 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@30ca0779 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 9, missCount = 1]
+20:29:57.986 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1453062635] from cache with key [[MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+20:29:57.986 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@30ca0779 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 10, missCount = 1]
+20:29:57.988 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - After test method: context [DefaultTestContext@6c8bca63 testClass = LearningAttendanceCountTest, testInstance = com.springboot.learning.LearningAttendanceCountTest@1991f767, testMethod = 출석카운트체크@LearningAttendanceCountTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+20:29:58.022 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1453062635] from cache with key [[MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+20:29:58.022 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@30ca0779 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 11, missCount = 1]
+20:29:58.024 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - After test class: context [DefaultTestContext@6c8bca63 testClass = LearningAttendanceCountTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2364305a testClass = LearningAttendanceCountTest, locations = '{}', classes = '{class com.springboot.learning.LearningApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:/application.properties}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@b78a709, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1c7fd41f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@662f5666, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@502f1f4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]], class annotated with @DirtiesContext [false] with mode [null].
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6</a> at 2023. 4. 2. 오후 8:29:58</p>
+</div>
+</div>
+</body>
+</html>
