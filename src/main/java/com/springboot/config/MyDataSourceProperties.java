@@ -1,4 +1,4 @@
-package com.springboot.config.autoconfig;
+package com.springboot.config;
 
 
 import com.springboot.config.MyConfigurationProperties;

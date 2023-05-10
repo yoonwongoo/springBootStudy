@@ -1,10 +1,7 @@
 package com.springboot.config.autoconfig;
 
 
-import com.springboot.config.ConditionMyOnClass;
-import com.springboot.config.EnableMyConfigurationProperties;
-import com.springboot.config.MyAutoConfiguration;
-import com.springboot.config.ServerProperties;
+import com.springboot.config.*;
 import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnSingleCandidate;
@@ -17,7 +14,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
 import java.sql.Driver;
-import java.sql.DriverManager;
 
 @MyAutoConfiguration
 @ConditionMyOnClass("org.springframework.jdbc.core.JdbcOperations")
